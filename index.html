@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TGIB</title>
-    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="App.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="js/script.js"></script>
-</head>
-<body>
-    
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+        <a href="">
+            <img src="/images/tgib-logo.svg" alt="" class="logo">
+        </a>
+
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a href="" class="main-nav-link">HOME</a></li>
+                <li><a href="" class="main-nav-link">LEARN</a></li>
+                <li><a href="" class="main-nav-link">TEAM</a></li>
+                <li><a href="" class="main-nav-link">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">
+                        The Future big guns of blockchain.
+                    </h1>
+                    <p class="hero-description">
+                        Join our free community of young entrepreneurs and volunteer blockchain mentors. 
+                    </p>
+                    <a href="" class="btn btn--full margin-right-sm">Join now</a>
+                    <a href="" class="btn btn--outline">&rarr; Learn more</a>
+                    <div class="community-members">
+                        <div class="community-imgs">
+                            <img src="/images/member1.png" alt="Member Photo">
+                            <img src="/images/member2.png" alt="Member Photo">
+                            <img src="/images/member3.png" alt="Member Photo">
+                            <img src="/images/member4.png" alt="Member Photo">
+                        </div>
+                        <p class="community-text">
+                           <span>12K+</span> Community Members
+                        </p>
+                    </div>
+                </div>
+                <div class="hero-img-box">
+                    <img 
+                    src="images/hero-img.png" 
+                    class="hero-img"
+                    alt="Community People">
+                </div>
+            </div>
+        </section>
+    </main>
+  </body>
 </html>

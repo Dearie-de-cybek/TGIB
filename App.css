@@ -415,3 +415,19 @@ body {
 .gallery-item img:hover {
   transform: scale(1.1);
 }
+
+/**************************/
+/* JOIN SECTION */
+/**************************/
+
+.section-join{
+  margin-top: 4.6rem;
+  display: grid;
+  align-items: center;
+}
+
+
+
+.logos-socials img {
+  height: 3.2rem;
+}

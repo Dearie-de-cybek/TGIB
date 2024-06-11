@@ -94,8 +94,8 @@
     }
 
     .section-featured .logos img {
-      height: 24rem; /* Increase the height as needed */
-      width: auto; /* Maintain the aspect ratio */
+      height: 24rem; 
+      width: auto; 
     }
 
     .logos{
